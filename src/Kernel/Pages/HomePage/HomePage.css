@@ -1,0 +1,26 @@
+.HomePage {
+  text-align: center;
+}
+.HomePageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.HomePageSelfPortrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.HomePageCodingImage {
+  width: 500px;
+  height: 400px;
+  margin-top: 32px;
+}
+.HomePageDescription {
+  width: 100%;
+  height: 500px;
+  /* background-color: #fa4616; UF*/
+  background-color: #00229c;
+}
