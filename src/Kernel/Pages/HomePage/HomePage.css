@@ -1,26 +1,89 @@
-.HomePage {
-  text-align: center;
+.HomePageIntroSection {
+  padding: 2rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    135deg,
+    rgb(0, 0, 0) 0%,
+    #0c1540 25%,
+    #071862 50%,
+    #09408b 75%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
+
 .HomePageHeader {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: row;
+  gap: 2rem;
+}
+.HomePageHeaderName {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 800;
+  font-family: PP Neue Machina;
+  color: #f4e8e8;
+}
+.HomePageHeaderButtons {
+  display: flex;
+  gap: 4rem;
+}
+.ResumeButton {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0rem;
+
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #ffffff;
+}
+.SayHelloButton {
+  cursor: pointer;
+  padding: 0.8125rem 2.75rem 0.8125rem 2.75rem;
+  background-color: transparent;
+  border-radius: 0.625rem;
+  border: 0.125rem solid #13acf3;
+
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #13acf3;
+}
+
+.HomePageIntroduction {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.HomePageIntroductionLeftSide {
+  display: flex;
   flex-direction: column;
-  gap: 32px;
+  justify-content: center;
+  gap: 2rem;
 }
-.HomePageSelfPortrait {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
+.HomePageIntroductionTitle {
+  font-family: PP Neue Machina;
+  font-weight: 800;
+  font-size: 3.875rem;
+  line-height: 4.5rem;
+  color: #e0edf3;
 }
-.HomePageCodingImage {
-  width: 500px;
-  height: 400px;
-  margin-top: 32px;
+.HomePageIntroductionLineBreak {
+  width: 5.505rem;
+  height: 0.375rem;
+  border-radius: 0.625rem;
+  background-color: #13acf3;
 }
-.HomePageDescription {
-  width: 100%;
-  height: 500px;
-  /* background-color: #fa4616; UF*/
-  background-color: #00229c;
+.HomePageIntroductionDescription {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #e0edf3;
+}
+.HomePageBackgroundImage {
 }
