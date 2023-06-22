@@ -1,13 +1,12 @@
 .HomePageIntroSection {
   padding: 2rem;
-  background: rgb(2, 0, 36);
   background: linear-gradient(
     135deg,
-    rgb(0, 0, 0) 0%,
+    #000000 0%,
     #0c1540 25%,
     #071862 50%,
     #09408b 75%,
-    rgba(0, 212, 255, 1) 100%
+    #00d4ff 100%
   );
 }
 
