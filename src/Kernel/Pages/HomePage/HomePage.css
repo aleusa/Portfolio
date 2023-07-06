@@ -1,5 +1,7 @@
 .HomePageIntroSection {
-  padding: 2rem;
+  padding: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
   background: linear-gradient(
     135deg,
     #000000 0%,
@@ -26,18 +28,20 @@
 }
 .HomePageHeaderButtons {
   display: flex;
+  align-items: center;
   gap: 4rem;
 }
 .ResumeButton {
-  cursor: pointer;
-  background-color: transparent;
-  border: 0rem;
-
   font-size: 1rem;
   line-height: 1.75rem;
   font-weight: 700;
   font-family: Roboto;
   color: #ffffff;
+  text-decoration: none;
+}
+.ResumeButton:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 .SayHelloButton {
   cursor: pointer;
@@ -51,6 +55,10 @@
   font-weight: 700;
   font-family: Roboto;
   color: #13acf3;
+}
+.SayHelloButton:hover {
+  background: #13acf3;
+  color: #ffffff;
 }
 
 .HomePageIntroduction {
@@ -84,5 +92,291 @@
   line-height: 1.75rem;
   color: #e0edf3;
 }
-.HomePageBackgroundImage {
+.HomePageIntroductionSocialContainer {
+  display: flex;
+  gap: 5rem;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+.HomePageIntroductionSocialContainer img {
+  cursor: pointer;
+}
+.HomePageIntroductionSocialContainer img:hover {
+  filter: invert(42%) sepia(99%) saturate(1611%) hue-rotate(163deg)
+    brightness(97%) contrast(101%);
+}
+
+.HomePageLineBreak {
+  width: 100%;
+  height: 1px;
+  margin-top: 5rem;
+  background: #d9d9d9;
+}
+
+.HomePageSkillSection {
+  padding: 6rem;
+  padding-bottom: 0;
+  background: linear-gradient(
+    225deg,
+    #00d4ff 0%,
+    #09408b 20%,
+    #071862 30%,
+    #071862 60%,
+    #09408b 75%,
+    #00d4ff 100%
+  );
+}
+.HomePagePresentationContainer {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+  padding-bottom: 6rem;
+  width: 60%;
+}
+.HomePagePresentationContainer img {
+  margin-top: 0.75rem;
+}
+.HomePagePresentation {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.HomePagePresentationTitle {
+  font-family: PP Neue Machina;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #cde5f2;
+}
+.HomePagePresentationDescription {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #cde5f2;
+}
+.HomePageSkillContainer {
+  display: flex;
+  align-items: start;
+  padding-left: 3rem;
+  padding-bottom: 6rem;
+  justify-content: space-evenly;
+}
+.HomePageSkillTitle {
+  font-family: PP Neue Machina;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #cde5f2;
+  margin-right: 2rem;
+}
+.HomePageSkills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3rem;
+  column-gap: 5rem;
+}
+.HomePageSkillCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.3125rem;
+  border: 0.125rem solid #cde5f2;
+  padding: 40px 100px 60px 40px;
+  gap: 30px;
+}
+.HomePageSkillCard img {
+  width: 5.75rem;
+  height: 5.75rem;
+}
+.HomePageSkillCardTitle {
+  font-family: PP Neue Machina;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 2.875rem;
+  color: #cde5f2;
+}
+.HomePageSkillCardContent {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 0.5rem;
+  column-gap: 3.75rem;
+  grid-auto-flow: column;
+}
+.HomePageSkillCardContent p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  white-space: nowrap;
+  margin: 0px;
+  color: #cde5f2;
+}
+
+.HomePageExperienceSection {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #acdbf2 0%, #c5e2f3 50%, #c8e4f2 100%);
+  padding: 150px 100px 200px 200px;
+  gap: 100px;
+}
+.HomePageExperienceSection h3 {
+  font-family: PP Neue Machina;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.075rem;
+  color: #0b1542;
+  margin: 0rem;
+}
+.HomePageExperienceSection h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #0b1542;
+  margin: 0rem;
+}
+.HomePageExperienceSection h5 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 2rem;
+  color: #0b1542;
+  margin: 0rem;
+}
+.HomePageExperienceSection h6 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #0b154280;
+  margin: 10px 0;
+}
+.HomePageExperienceSection ul {
+  padding: 0 20px;
+}
+.HomePageExperienceSection li {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #0b1542;
+  margin: 10px 0;
+}
+.HomePageExperienceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.HomePageExperienceColumns {
+  display: flex;
+  gap: 50px;
+}
+.HomePageExperience {
+  width: 50%;
+}
+
+.HomePageInfoSection {
+  display: flex;
+  background: #061764;
+  justify-content: space-between;
+  padding: 200px 150px 50px 150px;
+  position: relative;
+}
+.HomePageInfoSection h4 {
+  font-family: PP Neue Machina;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+  color: #f4e8e8;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.HomePageConnectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.HomePageConnectContainer h5 {
+  font-family: PP Neue Machina;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  color: #f4e8e8;
+  cursor: pointer;
+  margin: 0px;
+}
+.HomePageConnectContainer h5:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.HomePageInfoContainer h6 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #cde5f2;
+  margin: 0px;
+}
+.HomePageInfoContainer p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #7289c6;
+  margin: 0px;
+}
+
+.HomePageGetInTouch {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  background: #0b1542;
+  top: -100px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 100px;
+  border-radius: 10px;
+}
+.HomePageGetInTouchTextContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.HomePageGetInTouch h3 {
+  font-family: PP Neue Machina;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #cde5f2;
+  margin: 0;
+}
+.HomePageGetInTouch button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: transparent;
+  border: 2px solid #13acf3;
+  padding: 15px 35px;
+  border-radius: 10px;
+  height: 100%;
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 4px;
+  color: #13acf3;
+}
+.HomePageGetInTouch button:hover {
+  background: #13acf3;
+  color: #ffffff;
+}
+.HomePageGetInTouch button:hover img {
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
 }
