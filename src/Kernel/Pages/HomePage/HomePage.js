@@ -2,7 +2,7 @@ import "./HomePage.css";
 import { Images } from "../../../assets/images/images";
 import { Icons } from "../../../assets/icons/icons";
 import { useNavigate } from "react-router-dom";
-import resume from "./Resume.pdf";
+import resume from "../../../assets/Resume.pdf";
 
 export const HomePage = () => {
   const navigate = useNavigate();
