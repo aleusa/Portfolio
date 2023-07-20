@@ -1,0 +1,48 @@
+.ContactPage {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background: linear-gradient(225deg, #b2def2 0%, #cde5f2 100%);
+}
+.ContactPageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+.ContactPage h2 {
+  font-family: PP Neue Machina;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.375rem;
+  color: #0b1542;
+  width: 80%;
+}
+.ContactPageHeaderName {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 800;
+  font-family: PP Neue Machina;
+  color: #0b1542;
+}
+.HomeButton {
+  cursor: pointer;
+  padding: 0.8125rem 2.75rem 0.8125rem 2.75rem;
+  background-color: transparent;
+  border-radius: 0.625rem;
+  border: 0.125rem solid #0b1542;
+
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #0b1542;
+}
+.HomeButton:hover {
+  background: #0b1542;
+  color: #ffffff;
+}

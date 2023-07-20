@@ -32,12 +32,21 @@
   gap: 4rem;
 }
 .ResumeButton {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+
   font-size: 1rem;
   line-height: 1.75rem;
   font-weight: 700;
   font-family: Roboto;
   color: #ffffff;
   text-decoration: none;
+}
+.ResumeButton img {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: brightness(0) invert(1);
 }
 .ResumeButton:hover {
   text-decoration: underline;
@@ -297,7 +306,7 @@
   flex-direction: column;
   gap: 20px;
 }
-.HomePageConnectContainer h5 {
+.HomePageConnectContainer a {
   font-family: PP Neue Machina;
   font-weight: 300;
   font-size: 32px;
@@ -305,8 +314,9 @@
   color: #f4e8e8;
   cursor: pointer;
   margin: 0px;
+  text-decoration: none;
 }
-.HomePageConnectContainer h5:hover {
+.HomePageConnectContainer a:hover {
   text-decoration: underline;
   text-underline-offset: 8px;
 }

@@ -1,18 +1,34 @@
 import "./HomePage.css";
 import { Images } from "../../../assets/images/images";
 import { Icons } from "../../../assets/icons/icons";
+import { useNavigate } from "react-router-dom";
+import resume from "./Resume.pdf";
 
 export const HomePage = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="HomePage">
       <div className="HomePageIntroSection">
         <div className="HomePageHeader">
           <div className="HomePageHeaderName">jose_jon</div>
           <div className="HomePageHeaderButtons">
-            <a className="ResumeButton" href="Resume.pdf">
+            <a
+              className="ResumeButton"
+              href={resume}
+              download={"Resume.pdf"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Icons.Download} />
               Resume
             </a>
-            <button className="SayHelloButton">Say Hello</button>
+            <button
+              className="SayHelloButton"
+              onClick={() => navigate("/contact")}
+            >
+              Say Hello
+            </button>
           </div>
         </div>
         <div className="HomePageIntroduction">
@@ -207,10 +223,12 @@ export const HomePage = () => {
         <div className="HomePageConnectContainer">
           <h4>connect</h4>
           <div className="HomePageConnect">
-            <h5>↗ LinkedIn</h5>
+            <a href="https://www.linkedin.com/in/jose-jon-165a18174/">
+              ↗ LinkedIn
+            </a>
           </div>
           <div className="HomePageConnect">
-            <h5>↗ GitHub</h5>
+            <a href="https://github.com/aleusa/Portfolio">↗ GitHub</a>
           </div>
         </div>
         <div className="HomePageInfoContainer">
