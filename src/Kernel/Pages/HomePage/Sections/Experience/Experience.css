@@ -1,0 +1,82 @@
+.HomePageExperienceSection {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #acdbf2 0%, #c5e2f3 50%, #c8e4f2 100%);
+  padding: 150px 100px 200px 200px;
+  gap: 100px;
+}
+.HomePageExperienceSection h3 {
+  font-family: Space Grotesk;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.075rem;
+  color: #0b1542;
+  margin: 0rem;
+}
+.HomePageExperienceSection h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #0b1542;
+  margin: 0rem;
+}
+.HomePageExperienceSection h5 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 2rem;
+  color: #0b1542;
+  margin: 0rem;
+}
+.HomePageExperienceSection h6 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #0b154280;
+  margin: 10px 0;
+}
+.HomePageExperienceSection ul {
+  padding: 0 20px;
+}
+.HomePageExperienceSection li {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #0b1542;
+  margin: 10px 0;
+}
+.HomePageExperienceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.HomePageExperienceColumns {
+  display: flex;
+  gap: 50px;
+}
+.HomePageExperience {
+  width: 50%;
+}
+
+@media only screen and (max-width: 68.75rem) {
+  .HomePageExperienceSection {
+    padding: 6rem;
+    padding-bottom: 10rem;
+  }
+}
+@media only screen and (max-width: 53.125rem) {
+  .HomePageExperienceSection {
+    padding: 4rem;
+    padding-bottom: 10rem;
+  }
+  .HomePageExperienceColumns {
+    flex-wrap: wrap;
+  }
+  .HomePageExperience {
+    width: 100%;
+  }
+}
