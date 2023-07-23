@@ -37,9 +37,10 @@ export const Intro = () => {
           </div>
           <div className="HomePageIntroductionLineBreak" />
           <div className="HomePageIntroductionDescription">
-            With a diverse skill set and a commitment to delivering high-quality
-            products, I am dedicated to providing software solutions that exceed
-            the expectations of my clients.
+            Welcome to my portfolio built with React! Here, I highlight my
+            skills in web development and my experience in the industry. As a
+            passionate developer, I enjoy crafting user-friendly and visually
+            appealing websites.
           </div>
           <div className="HomePageIntroductionSocialContainer">
             <a href="https://www.linkedin.com/in/jose-jon-165a18174/">

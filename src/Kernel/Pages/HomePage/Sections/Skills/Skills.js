@@ -11,13 +11,13 @@ export const Skills = () => {
             hello world, i'm jose jon
           </div>
           <div className="HomePagePresentationDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh
-            mauris cursus mattis molestie a iaculis at erat. Quis hendrerit
-            dolor magna eget. Purus sit amet luctus venenatis lectus magna
-            fringilla urna. Natoque penatibus et magnis dis parturient. Sit amet
-            commodo nulla facilisi nullam. Elit ut aliquam purus sit amet
-            luctus.
+            In 2021, I obtained a Bachelor's degree in Computer Science with a
+            Minor in Economics from the University of Florida. Presently, I am
+            employed at an innovative startup company that primarily specializes
+            in consulting services. As a result, I have honed my expertise in a
+            diverse range of coding languages and essential skills, encompassing
+            Agile Development, Problem-Solving, Client Interaction, Version
+            Control, and more.
           </div>
         </div>
       </div>
