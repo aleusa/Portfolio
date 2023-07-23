@@ -115,3 +115,15 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 25rem) {
+  .HomePageSkillContainer {
+    padding-left: 0rem;
+  }
+  .HomePageSkillCardContent {
+    grid-auto-flow: row;
+    grid-template-rows: auto;
+  }
+  .HomePageSkillCard {
+    padding: 2.5rem;
+  }
+}
