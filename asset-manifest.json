@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb8f88b0.css",
+    "main.js": "/static/js/main.6901b7b4.js",
+    "static/js/787.123dd171.chunk.js": "/static/js/787.123dd171.chunk.js",
+    "static/media/IntroBackground.png": "/static/media/IntroBackground.76e6ce7701cc1826ade1.png",
+    "static/media/self-portrait.jpg": "/static/media/self-portrait.d56a89fa3adde60de4fb.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.7c1e5aa076f3e0d15908.pdf",
+    "static/media/coding.png": "/static/media/coding.489c45effc03ca2ce0d5.png",
+    "static/media/Github - Negative.svg": "/static/media/Github - Negative.2b8196700ef61706ad1214beb5f09a76.svg",
+    "static/media/Tools.svg": "/static/media/Tools.8a9991f2ed7d30e67161257c0bdaf403.svg",
+    "static/media/Libraries.svg": "/static/media/Libraries.cd57b29893a66b596b69a43919d0918f.svg",
+    "static/media/Databases.svg": "/static/media/Databases.fea614ba4b7b7975178965266a3cd0b6.svg",
+    "static/media/Languages.svg": "/static/media/Languages.decee375fd72762a849e7d5a7105b407.svg",
+    "static/media/Chat.svg": "/static/media/Chat.fc3d5b675dd0b3f09f42cec852378580.svg",
+    "static/media/LinkedIn - Negative.svg": "/static/media/LinkedIn - Negative.048b2cf6aa773db491872edbe11ee679.svg",
+    "static/media/download-svgrepo-com.svg": "/static/media/download-svgrepo-com.0eedb0b293993fccfa5aee4995bebda1.svg",
+    "index.html": "/index.html",
+    "static/media/DiagonalArrow.svg": "/static/media/DiagonalArrow.6e946532db8bd0ade770b53d588de821.svg",
+    "main.bb8f88b0.css.map": "/static/css/main.bb8f88b0.css.map",
+    "main.6901b7b4.js.map": "/static/js/main.6901b7b4.js.map",
+    "787.123dd171.chunk.js.map": "/static/js/787.123dd171.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb8f88b0.css",
+    "static/js/main.6901b7b4.js"
+  ]
+}
