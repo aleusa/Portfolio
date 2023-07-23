@@ -106,3 +106,14 @@
 .ContactPageForm button:hover {
   background: #0b1542;
 }
+
+@media only screen and (max-width: 37.5rem) {
+  .ContactPage h2 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 25rem) {
+  .ContactPage h2 {
+    font-size: 2rem;
+  }
+}
